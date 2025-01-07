@@ -1,0 +1,31 @@
+{
+  "name": "hello-react",
+  "version": "1.0.0",
+  "description": "Sample React + TypeScript + webpack app",
+  "main": "src/index.tsx",
+  "scripts": {
+    "clean": "rm -r dist",
+    "start": "webpack serve --port 3000",
+    "build": "NODE_ENV=production webpack",
+    "preview": "serve dist"
+  },
+  "author": "Aleksei Berezkin",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/react": "^19.0.3",
+    "@types/react-dom": "^19.0.2",
+    "css-loader": "^7.1.2",
+    "esbuild-loader": "^4.2.2",
+    "html-webpack-plugin": "^5.6.3",
+    "mini-css-extract-plugin": "^2.9.2",
+    "serve": "^14.2.4",
+    "typescript": "^5.7.2",
+    "webpack": "^5.97.1",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.0"
+  },
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  }
+}
