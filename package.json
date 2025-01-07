@@ -7,7 +7,7 @@
     "clean": "rm -r dist",
     "start": "webpack serve --port 3000",
     "build": "NODE_ENV=production webpack",
-    "preview": "serve dist"
+    "preview": "serve dist -p 3000"
   },
   "author": "Aleksei Berezkin",
   "license": "ISC",
